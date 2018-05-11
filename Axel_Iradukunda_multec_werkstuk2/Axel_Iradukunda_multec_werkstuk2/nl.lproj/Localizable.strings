@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Axel_Iradukunda_multec_werkstuk2
+
+  Created by student on 11/05/18.
+  Copyright © 2018 student. All rights reserved.
+*/
+"TitleScherm" = "Kaart";
+"update" = "De laatste update werd uitgevoerd om: onbekend";
+"updateChange" = "De laatste update werd uitgevoerd om:";
+
+"besckbareFietsen" = "Beschrikbare fietsen:";
+"status" = "Status:";

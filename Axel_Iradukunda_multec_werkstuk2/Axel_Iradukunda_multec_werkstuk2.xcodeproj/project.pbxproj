@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F723EBA20A624FE00EF3ED6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F723EB820A624FE00EF3ED6 /* Localizable.strings */; };
 		3FAAC7AF209717D900CD6DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAC7AE209717D900CD6DE5 /* AppDelegate.swift */; };
 		3FAAC7B1209717D900CD6DE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAC7B0209717D900CD6DE5 /* ViewController.swift */; };
 		3FAAC7B4209717D900CD6DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAAC7B2209717D900CD6DE5 /* Main.storyboard */; };
 		3FAAC7B7209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAC7B5209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2.xcdatamodeld */; };
 		3FAAC7B9209717D900CD6DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAAC7B8209717D900CD6DE5 /* Assets.xcassets */; };
-		3FAAC7BC209717D900CD6DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAAC7BA209717D900CD6DE5 /* LaunchScreen.storyboard */; };
 		3FAAC7C7209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAC7C6209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2Tests.swift */; };
 		3FAAC7D2209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAC7D1209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2UITests.swift */; };
+		3FCA572F209F7AE30054C518 /* ViewControllerMeerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA572E209F7AE30054C518 /* ViewControllerMeerInfo.swift */; };
+		3FFFF4AB209C93A80066723F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFFF4AA209C93A80066723F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F723EAD20A61C3600EF3ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F723EB720A6243800EF3ED6 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		3F723EB920A624FE00EF3ED6 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3F723EBB20A632CA00EF3ED6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		3F723EBC20A632CA00EF3ED6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3FAAC7AB209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Axel_Iradukunda_multec_werkstuk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAAC7AE209717D900CD6DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FAAC7B0209717D900CD6DE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FAAC7B3209717D900CD6DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FAAC7B6209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Axel_Iradukunda_multec_werkstuk2.xcdatamodel; sourceTree = "<group>"; };
 		3FAAC7B8209717D900CD6DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FAAC7BB209717D900CD6DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FAAC7BD209717D900CD6DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FAAC7C2209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Axel_Iradukunda_multec_werkstuk2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAAC7C6209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Axel_Iradukunda_multec_werkstuk2Tests.swift; sourceTree = "<group>"; };
@@ -49,6 +54,8 @@
 		3FAAC7CD209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Axel_Iradukunda_multec_werkstuk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAAC7D1209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Axel_Iradukunda_multec_werkstuk2UITests.swift; sourceTree = "<group>"; };
 		3FAAC7D3209717D900CD6DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCA572E209F7AE30054C518 /* ViewControllerMeerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMeerInfo.swift; sourceTree = "<group>"; };
+		3FFFF4AA209C93A80066723F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFFF4AB209C93A80066723F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +91,7 @@
 				3FAAC7C5209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2Tests */,
 				3FAAC7D0209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2UITests */,
 				3FAAC7AC209717D900CD6DE5 /* Products */,
+				3FFFF4A9209C93A80066723F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +110,12 @@
 			children = (
 				3FAAC7AE209717D900CD6DE5 /* AppDelegate.swift */,
 				3FAAC7B0209717D900CD6DE5 /* ViewController.swift */,
+				3F723EB820A624FE00EF3ED6 /* Localizable.strings */,
 				3FAAC7B2209717D900CD6DE5 /* Main.storyboard */,
 				3FAAC7B8209717D900CD6DE5 /* Assets.xcassets */,
-				3FAAC7BA209717D900CD6DE5 /* LaunchScreen.storyboard */,
 				3FAAC7BD209717D900CD6DE5 /* Info.plist */,
 				3FAAC7B5209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2.xcdatamodeld */,
+				3FCA572E209F7AE30054C518 /* ViewControllerMeerInfo.swift */,
 			);
 			path = Axel_Iradukunda_multec_werkstuk2;
 			sourceTree = "<group>";
@@ -126,6 +136,14 @@
 				3FAAC7D3209717D900CD6DE5 /* Info.plist */,
 			);
 			path = Axel_Iradukunda_multec_werkstuk2UITests;
+			sourceTree = "<group>";
+		};
+		3FFFF4A9209C93A80066723F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FFFF4AA209C93A80066723F /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +215,11 @@
 					3FAAC7AA209717D900CD6DE5 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					3FAAC7C1209717D900CD6DE5 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -215,8 +238,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				nl,
+				fr,
 			);
 			mainGroup = 3FAAC7A2209717D900CD6DE5;
 			productRefGroup = 3FAAC7AC209717D900CD6DE5 /* Products */;
@@ -235,8 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FAAC7BC209717D900CD6DE5 /* LaunchScreen.storyboard in Resources */,
 				3FAAC7B9209717D900CD6DE5 /* Assets.xcassets in Resources */,
+				3F723EBA20A624FE00EF3ED6 /* Localizable.strings in Resources */,
 				3FAAC7B4209717D900CD6DE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +289,7 @@
 				3FAAC7B1209717D900CD6DE5 /* ViewController.swift in Sources */,
 				3FAAC7AF209717D900CD6DE5 /* AppDelegate.swift in Sources */,
 				3FAAC7B7209717D900CD6DE5 /* Axel_Iradukunda_multec_werkstuk2.xcdatamodeld in Sources */,
+				3FCA572F209F7AE30054C518 /* ViewControllerMeerInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,20 +325,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3F723EB820A624FE00EF3ED6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F723EB920A624FE00EF3ED6 /* nl */,
+				3F723EBC20A632CA00EF3ED6 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		3FAAC7B2209717D900CD6DE5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FAAC7B3209717D900CD6DE5 /* Base */,
+				3F723EAD20A61C3600EF3ED6 /* Base */,
+				3F723EB720A6243800EF3ED6 /* nl */,
+				3F723EBB20A632CA00EF3ED6 /* fr */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3FAAC7BA209717D900CD6DE5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FAAC7BB209717D900CD6DE5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -372,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -507,6 +537,7 @@
 				3FAAC7D8209717D900CD6DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FAAC7D9209717D900CD6DE5 /* Build configuration list for PBXNativeTarget "Axel_Iradukunda_multec_werkstuk2Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +546,7 @@
 				3FAAC7DB209717D900CD6DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FAAC7DC209717D900CD6DE5 /* Build configuration list for PBXNativeTarget "Axel_Iradukunda_multec_werkstuk2UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +555,7 @@
 				3FAAC7DE209717D900CD6DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

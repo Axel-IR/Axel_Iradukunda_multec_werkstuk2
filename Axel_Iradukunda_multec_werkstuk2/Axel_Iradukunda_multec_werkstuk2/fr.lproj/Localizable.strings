@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Axel_Iradukunda_multec_werkstuk2
+
+  Created by student on 11/05/18.
+  Copyright © 2018 student. All rights reserved.
+*/
+"TitleScherm" = "Carte";
+"update" = "Dernière mise à jour: inconnu";
+"updateChange" = "Dernière mise à jour:";
+"besckbareFietsen" = "Vélo disponible:";
+"status" = "Status:";
